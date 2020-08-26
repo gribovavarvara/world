@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: darkblue;
+}
+
+#header {
+    height: 200px;
+    background: url("../img/fon.jpg");
+}
+
+#logo {
+    float: left;
+}
+
+#reg {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+}
+
+#reg a {
+    color: white;
+    font-family: GothicI;
+}
+
+#reg a:hover {
+    text-decoration: none;
+}
+
+#logotext {
+    float: right;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-right: 75px;
+    margin-top: 75px;
+    font-family: GothicI;
+}
+
+#menutop {
+    display: flex;
+}
+
+#menutop a {
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-right: 1px mediumblue solid;
+    text-decoration: none;
+    background: #00008b;
+    color: white;
+    font-family: GothicI;
+}
+
+#menutop a:hover {
+    color: black;
+    background: chocolate;
+}
+
+.mytext {
+    background: chocolate;
+    border: solid 1px #0c5460;
+    color: white;
+    font-family: GothicI;
+    text-align: center;
+}
+
+#foot {
+    color: white;
+    padding: 150px;
+    text-align: center;
+    background: darkblue;
+}
